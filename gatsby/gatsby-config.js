@@ -6,7 +6,7 @@ export default {
   siteMetadata: {
     title: `Slicks Slices`,
     siteUrl: 'https://gatsby.pizza',
-    description: 'The beaset pizza place in Hamilton!',
+    description: 'The best pizza place in Hamilton!',
   },
   plugins: [
     'gatsby-plugin-styled-components',
