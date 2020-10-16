@@ -43,7 +43,7 @@ export default function SlicemastersPage({ data, pageContext }) {
 
   return (
     <>
-      <SEO title={`Slicemasters - Page ${pageContext.currentPage} || 1 `} />
+      <SEO title={`Slicemasters - Page ${pageContext.currentPage || 1}`} />
       <Pagination
         pageSize={parseInt(process.env.GATSBY_PAGE_SIZE)}
         totalCount={data.slicemasters.totalCount}
